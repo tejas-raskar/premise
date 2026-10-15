@@ -32,6 +32,7 @@ Acceptance is a dashboard action, not an MCP tool.
 
 `DecisionView` contains id, statement, scope, introduced_sha, at_sha, status, sources, supports, evidence, history, and superseded_by.
 It also contains `state: active | proposed` and optional `proposal_id`.
+`resolution_reason` is a nullable explanation for conflicting observations.
 Status is supported, needs_revalidation, contradicted, unknown, or superseded.
 Evidence contains id, contract, observed_sha, outcome, freshness, reason, stdout, stderr, and exit_code.
 Freshness is direct, inherited, stale, or missing.

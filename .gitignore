@@ -1,0 +1,12 @@
+.audit/
+.artifacts/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.env
+node_modules/
+dist/
+coverage/
+.DS_Store
